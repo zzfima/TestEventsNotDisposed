@@ -23,13 +23,11 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
-[Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
-[Oo]ut/
 [Ll]og/
 [Ll]ogs/
 
@@ -62,9 +60,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
@@ -141,11 +136,6 @@ _TeamCity*
 # AxoCover is a Code Coverage Tool
 .axoCover/*
 !.axoCover/settings.json
-
-# Coverlet is a free, cross platform Code Coverage Tool
-coverage*.json
-coverage*.xml
-coverage*.info
 
 # Visual Studio code coverage results
 *.coverage
@@ -358,6 +348,16 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Code/New/Chapter_16/CSharpCarClient/truesinglefile/CSharpCarClient.exe
+/Code/New/Chapter_18/RoundTrip3/singlefile/RoundTrip.exe
+/Code/New/Chapter_21/AutoLot.Samples/selfcontainedbundle.exe
+/Code/New/Chapter_21/AutoLot.Samples/bundle.exe
+/Code/Old/Chapter_16/CSharpCarClient/truesinglefile/CSharpCarClient.exe
+/Code/Old/Chapter_18/RoundTrip3/singlefile/RoundTrip.exe
+/Code/Old/Chapter_21/AutoLot.Samples/selfcontainedbundle.exe
+/Code/Old/Chapter_21/AutoLot.Samples/bundle.exe
 
-# Fody - auto-generated XML schema
-FodyWeavers.xsd
+Chapter_16/CSharpCarClient/truesinglefile/CSharpCarClient.exe
+Chapter_18/RoundTrip3/singlefile/RoundTrip.exe
+Chapter_21/AutoLot.Samples/selfcontainedbundle.exe
+Chapter_21/AutoLot.Samples/bundle.exe
